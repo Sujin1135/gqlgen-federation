@@ -2,6 +2,10 @@
 
 package model
 
+type Book struct {
+	ID string `json:"id"`
+}
+
 type Mutation struct {
 }
 
